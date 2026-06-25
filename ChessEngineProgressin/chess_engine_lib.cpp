@@ -1,26 +1,4 @@
 /*
-=============================================================
-  CHESS ENGINE — Single-File, Built on Disservin's chess-library
-=============================================================
-
-  SETUP:
-    1. Put chess.hpp in the SAME folder as this file.
-       Download: https://github.com/Disservin/chess-library
-       (Releases → chess.hpp → Save As)
-
-  COMPILE:
-    g++ -std=c++17 -O2 -o chess_engine chess_engine_lib.cpp
-
-  RUN:
-    ./chess_engine
-    > uci          → engine says uciok
-    > isready      → readyok
-    > position startpos
-    > go depth 5   → bestmove ...
-
-  CONNECT TO GUI:
-    Download Cute Chess (free) from cutechess.com
-    Tools → Engines → Add → point to ./chess_engine, Protocol = UCI
 
   HOW THIS FILE IS ORGANISED :
     1.  Includes and setup
