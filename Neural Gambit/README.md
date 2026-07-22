@@ -1,4 +1,4 @@
-# BeginnerChessEngine — Compile & Run
+# About ChessEngine 
 
 Prerequisites:
 - Place `chess.hpp` in the same folder as `chess_engine_simple.cpp` (already present).
@@ -24,5 +24,6 @@ Quick runtime tips:
 - To run a search: `position startpos` then `go depth 5`.
 - To load NNUE weights (if you have them): place `nnue.bin` next to the executable or use `loadnnue <path>` or `setoption name EvalFile value <path>`.
 
+I have used stockfish for testing my engine against it. 
 
 
