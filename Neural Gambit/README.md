@@ -24,6 +24,8 @@ Quick runtime tips:
 - To run a search: `position startpos` then `go depth 5`.
 - To load NNUE weights (if you have them): place `nnue.bin` next to the executable or use `loadnnue <path>` or `setoption name EvalFile value <path>`.
 
-I have used stockfish for testing my engine against it. 
+I have used stockfish for testing my engine against it.
+I would continue to develop this engine and keep on training it to increase its strength.
+
 
 
